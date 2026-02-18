@@ -9,5 +9,6 @@ df=pd.DataFrame({
 })
 df['month'] = month
 print(df.head())
+df.to_parquet(f'output_{month}.parquet')
 print (f'hello world month {month}')
 
