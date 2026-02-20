@@ -16,4 +16,3 @@ COPY pipeline.py .
 ENTRYPOINT  ["python","pipeline.py"]
 
 
-sdfa
