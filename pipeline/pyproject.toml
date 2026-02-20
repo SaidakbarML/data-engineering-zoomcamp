@@ -8,3 +8,9 @@ dependencies = [
     "pandas>=3.0.1",
     "pyarrow>=23.0.1",
 ]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "pgcli>=4.4.0",
+]

@@ -14,3 +14,5 @@ RUN pip install pandas pyarrow
 COPY pipeline.py .
 
 ENTRYPOINT  ["python","pipeline.py"]
+
+
